@@ -1,0 +1,11 @@
+Package: kmod-ath10k
+Version: 3.18.29+2016-01-10-1
+Depends: kernel (=3.18.29-1-4910600ccb0d1e62c138d2dde954d5dc), kmod-ath, ath10k-firmware-qca988x
+Source: package/kernel/mac80211
+Section: kernel
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 136115
+Description:  This module adds support for wireless adapters based on
+ Atheros IEEE 802.11ac family of chipsets. For now only
+ PCI is supported.
